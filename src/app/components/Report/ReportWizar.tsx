@@ -18,7 +18,7 @@ function ReportWizar() {
   return (
       <>
           <div className="">
-              {currentstep === 1 && <ReportForm/>}
+              {currentstep === 1 && <ReportForm onComplete={handelstepcompleted}/>}
               
       </div>
       </>
