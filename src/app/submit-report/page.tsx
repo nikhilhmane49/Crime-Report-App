@@ -4,7 +4,7 @@ import ReportWizar from "../components/Report/ReportWizar";
 function page() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen ">
-      <div className="flex items-center justify-center gap-4 rounded-full ring-2 ring-blue-500 bg-blue-700/30 text-white px-6 py-3 text-lg font-semibold transition-all hover:bg-blue-600 hover:ring-blue-400 max-w-2xl ml-auto mr-auto">
+      <div className="flex items-center justify-center gap-4 rounded-full ring-2 ring-blue-500 bg-blue-700/30 text-white px-6 py-3 text-lg font-semibold transition-all hover:bg-blue-600 hover:ring-blue-400 max-w-2xl ml-auto mr-auto mt-20">
         <svg
           className="w-10 h-10 text-blue-500 mt-4"
           fill="currentColor"
