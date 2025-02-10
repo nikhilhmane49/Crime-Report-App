@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import LocationInput from "./LocationInput";
 
 const REPORT_TYPES = [
   "Theft",
@@ -186,7 +187,9 @@ function ReportForm({ onComplete }: ReportFormProps) {
 
       {/* locationInput */}
 
-      
+      <LocationInput/>
+
+
     </form>
   );
 }
